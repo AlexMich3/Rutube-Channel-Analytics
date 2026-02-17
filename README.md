@@ -31,7 +31,7 @@ Python‑скрипт собирает статистику по всем вид
   - `engagement_rate = (likes + comments) / views`
   - `net_likes = likes - dislikes`
   - `likes_per_1k_views`, `comments_per_1k_views`
-- Безопасное деление при нуле просмотров, обработка ошибок API и 404.
+-  обработка ошибок API и 404.
 
 **Load**
 
@@ -71,6 +71,6 @@ Python‑скрипт собирает статистику по всем вид
 ## 5. Tech stack
 
 - Python: `requests`, `json`, `re`, `csv`, `datetime`, `time`
-- PostgreSQL (Neon), `psycopg2` - Аналитические запросы для дашборда (KPI, топ‑5 видео, лайки/комментарии на 100 просмотров
+- PostgreSQL (Neon), `psycopg2` - Аналитические запросы для дашборда (KPI, топ‑5 видео, лайки/комментарии на 100 просмотров)
 - BI: DataLens
 - Git, GitHub
